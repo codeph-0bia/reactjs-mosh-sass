@@ -1,0 +1,21 @@
+.format_counter {
+  margin: 0.8rem;
+  padding: 5px;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  background: $babyBlue;
+  color: $white;
+  font-weight: $font-xlw;
+  text-align: center;
+
+  &__zero {
+    margin: 0.8rem;
+    padding: 5px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    background: $zeroWarnColor;
+    color: $gray;
+    font-weight: $font-xlw;
+    text-align: center;
+  }
+}

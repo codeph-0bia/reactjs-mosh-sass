@@ -1,0 +1,11 @@
+.button {
+  &__incr {
+    padding: 5px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    background-color: $incrButttonColor;
+    color: $white;
+    font-weight: $font-lw;
+    text-align: center;
+  }
+}
